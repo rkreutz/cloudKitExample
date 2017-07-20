@@ -1,0 +1,267 @@
+[{
+	"number": 25,
+	"name": "Pikachu",
+	"icon": "http:\/\/server03.local:60080\/login\/images\/025-icon.png",
+	"image": "http:\/\/server03.local:60080\/login\/images\/025.png",
+	"level": 90,
+	"type1": "Electric",
+	"status": {
+		"health": 247,
+		"attack": 188,
+		"defense": 161,
+		"spAttack": 179,
+		"spDefense": 161,
+		"speed": 276
+	},
+	"skills": [{
+		"name": "Slam",
+		"type": "Normal",
+		"damageCategory": "Physical",
+		"power": 80,
+		"accuracy": 75,
+		"powerPoint": 20
+	}, {
+		"name": "Iron Tail",
+		"type": "Steel",
+		"damageCategory": "Physical",
+		"power": 100,
+		"accuracy": 75,
+		"powerPoint": 15
+	}, {
+		"name": "Thunderbolt",
+		"type": "Electric",
+		"damageCategory": "Special",
+		"power": 90,
+		"accuracy": 100,
+		"powerPoint": 15
+	}, {
+		"name": "Thunder",
+		"type": "Electric",
+		"damageCategory": "Special",
+		"power": 110,
+		"accuracy": 70,
+		"powerPoint": 10
+	}]
+}, {
+	"number": 6,
+	"name": "Charizard",
+	"icon": "http:\/\/server03.local:60080\/login\/images\/006-icon.png",
+	"image": "http:\/\/server03.local:60080\/login\/images\/006.png",
+	"level": 95,
+	"type1": "Fire",
+	"type2": "Flying",
+	"status": {
+		"health": 342,
+		"attack": 253,
+		"defense": 242,
+		"spAttack": 331,
+		"spDefense": 229,
+		"speed": 284
+	},
+	"skills": [{
+		"name": "Wing Attack",
+		"type": "Flying",
+		"damageCategory": "Physical",
+		"power": 60,
+		"accuracy": 100,
+		"powerPoint": 35
+	}, {
+		"name": "Slash",
+		"type": "Normal",
+		"damageCategory": "Physical",
+		"power": 70,
+		"accuracy": 75,
+		"powerPoint": 20
+	}, {
+		"name": "Flamethrower",
+		"type": "Fire",
+		"damageCategory": "Special",
+		"power": 90,
+		"accuracy": 100,
+		"powerPoint": 15
+	}, {
+		"name": "Flare Blitz",
+		"type": "Fire",
+		"damageCategory": "Physical",
+		"power": 120,
+		"accuracy": 100,
+		"powerPoint": 15
+	}]
+}, {
+	"number": 1,
+	"name": "Bulbasaur",
+	"icon": "http:\/\/server03.local:60080\/login\/images\/001-icon.png",
+	"image": "http:\/\/server03.local:60080\/login\/images\/001.png",
+	"level": 75,
+	"type1": "Grass",
+	"type2": "Poison",
+	"status": {
+		"health": 223,
+		"attack": 149,
+		"defense": 149,
+		"spAttack": 190,
+		"spDefense": 173,
+		"speed": 128
+	},
+	"skills": [{
+		"name": "Take Down",
+		"type": "Normal",
+		"damageCategory": "Physical",
+		"power": 60,
+		"accuracy": 100,
+		"powerPoint": 35
+	}, {
+		"name": "Sleep Powder",
+		"type": "Grass",
+		"damageCategory": "Status",
+		"power": 0,
+		"accuracy": 75,
+		"powerPoint": 15
+	}, {
+		"name": "Seed Bomb",
+		"type": "Grass",
+		"damageCategory": "Physical",
+		"power": 80,
+		"accuracy": 100,
+		"powerPoint": 15
+	}, {
+		"name": "Solar Beam",
+		"type": "Grass",
+		"damageCategory": "Special",
+		"power": 120,
+		"accuracy": 100,
+		"powerPoint": 10
+	}]
+}, {
+	"number": 7,
+	"name": "Squartle",
+	"icon": "http:\/\/server03.local:60080\/login\/images\/007-icon.png",
+	"image": "http:\/\/server03.local:60080\/login\/images\/007.png",
+	"level": 85,
+	"type1": "Water",
+	"status": {
+		"health": 221,
+		"attack": 147,
+		"defense": 173,
+		"spAttack": 150,
+		"spDefense": 188,
+		"speed": 126
+	},
+	"skills": [{
+		"name": "Rain Dance",
+		"type": "Water",
+		"damageCategory": "Status",
+		"power": 0,
+		"accuracy": 0,
+		"powerPoint": 5
+	}, {
+		"name": "Aqua Tail",
+		"type": "Water",
+		"damageCategory": "Physical",
+		"power": 90,
+		"accuracy": 90,
+		"powerPoint": 10
+	}, {
+		"name": "Skull Bash",
+		"type": "Normal",
+		"damageCategory": "Physical",
+		"power": 130,
+		"accuracy": 100,
+		"powerPoint": 10
+	}, {
+		"name": "Hydro Pump",
+		"type": "Water",
+		"damageCategory": "Special",
+		"power": 110,
+		"accuracy": 80,
+		"powerPoint": 5
+	}]
+}, {
+	"number": 57,
+	"name": "Primeape",
+	"icon": "http:\/\/server03.local:60080\/login\/images\/057-icon.png",
+	"image": "http:\/\/server03.local:60080\/login\/images\/057.png",
+	"level": 50,
+	"type1": "Fighting",
+	"status": {
+		"health": 172,
+		"attack": 172,
+		"defense": 112,
+		"spAttack": 112,
+		"spDefense": 109,
+		"speed": 147
+	},
+	"skills": [{
+		"name": "Assurance",
+		"type": "Dark",
+		"damageCategory": "Physical",
+		"power": 60,
+		"accuracy": 100,
+		"powerPoint": 10
+	}, {
+		"name": "Rage",
+		"type": "Normal",
+		"damageCategory": "Physical",
+		"power": 20,
+		"accuracy": 100,
+		"powerPoint": 20
+	}, {
+		"name": "Cross Chop",
+		"type": "Fighting",
+		"damageCategory": "Physical",
+		"power": 100,
+		"accuracy": 80,
+		"powerPoint": 5
+	}, {
+		"name": "Thrash",
+		"type": "Normal",
+		"damageCategory": "Physical",
+		"power": 120,
+		"accuracy": 100,
+		"powerPoint": 10
+	}]
+}, {
+	"number": 143,
+	"name": "Snorlax",
+	"icon": "http:\/\/server03.local:60080\/login\/images\/143-icon.png",
+	"image": "http:\/\/server03.local:60080\/login\/images\/143.png",
+	"level": 60,
+	"type1": "Normal",
+	"status": {
+		"health": 318,
+		"attack": 193,
+		"defense": 152,
+		"spAttack": 125,
+		"spDefense": 193,
+		"speed": 97
+	},
+	"skills": [{
+		"name": "Rest",
+		"type": "Psychic",
+		"damageCategory": "Status",
+		"power": 0,
+		"accuracy": 0,
+		"powerPoint": 10
+	}, {
+		"name": "Defense Curl",
+		"type": "Normal",
+		"damageCategory": "Status",
+		"power": 0,
+		"accuracy": 0,
+		"powerPoint": 40
+	}, {
+		"name": "Heavy Slam",
+		"type": "Steel",
+		"damageCategory": "Physical",
+		"power": 0,
+		"accuracy": 100,
+		"powerPoint": 10
+	}, {
+		"name": "Giga Impact",
+		"type": "Normal",
+		"damageCategory": "Physical",
+		"power": 150,
+		"accuracy": 90,
+		"powerPoint": 5
+	}]
+}]
