@@ -18,6 +18,7 @@ class PokemonViewController: UIViewController, UITableViewDelegate, UITableViewD
     @IBOutlet weak var type: UILabel!
     @IBOutlet weak var level: UILabel!
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var favorite: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,12 +26,7 @@ class PokemonViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.tableView.delegate = self
         self.tableView.dataSource = self
         
-        if let url = NSURL(string: self.pokemon.image) {
-            if let data = NSData(contentsOfURL: url) {
-                self.image.image = UIImage(data: data)
-            }
-        }
-        
+        self.image.image = self.pokemon.image
         self.name.text = self.pokemon.name
         self.number.text = "(nº \(self.pokemon.number))"
         self.level.text = "Lvl \(self.pokemon.level)"
@@ -40,6 +36,13 @@ class PokemonViewController: UIViewController, UITableViewDelegate, UITableViewD
         else {
             type.text = "\(self.pokemon.type)"
         }
+        
+        if pokemon.favorite {
+            self.favorite.image = UIImage(named: "fav")
+        }
+        
+        let tap = UITapGestureRecognizer(target: self, action: "tapFavorite:")
+        self.favorite.addGestureRecognizer(tap)
     }
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -145,6 +148,36 @@ class PokemonViewController: UIViewController, UITableViewDelegate, UITableViewD
         }
         
         return CGFloat(height)
+    }
+    
+    func tapFavorite(sender: AnyObject) {
+        self.pokemon.favorite = !self.pokemon.favorite
+        
+        self.view.userInteractionEnabled = false
+        
+        CloudKitModel.sharedInstance.favoritePokemon(self.pokemon.favorite, pokemonId: self.pokemon.recordName) { (error: NSError?) -> Void in
+            self.view.userInteractionEnabled = true
+            
+            if let error = error {
+                let alert = UIAlertController(title: "Warning", message: "An error occured while trying to favorite a pokemon to the database.", preferredStyle: .Alert)
+                
+                let ok = UIAlertAction(title: "OK", style: .Default, handler: nil)
+                
+                alert.addAction(ok)
+                
+                self.presentViewController(alert, animated: true, completion: nil)
+                
+                print(error)
+            }
+            else {
+                if !self.pokemon.favorite {
+                    self.favorite.image = UIImage(named: "notFav")
+                }
+                else {
+                    self.favorite.image = UIImage(named: "fav")
+                }
+            }
+        }
     }
 
 }

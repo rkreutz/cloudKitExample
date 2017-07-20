@@ -7,13 +7,16 @@
 //
 
 import XCTest
+import CloudKit
 @testable import cloudKitPokemon
 
-class cloudKitPokemonTests: XCTestCase {
+class cloudKitPokemonTests: XCTestCase, CloudKitModelDelegate {
+    
+    var iCloud: XCTestExpectation!
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        
     }
     
     override func tearDown() {
@@ -21,16 +24,45 @@ class cloudKitPokemonTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testCheckICloud() {
+        self.iCloud = expectationWithDescription("iCloud")
+        
+        CloudKitModel.sharedInstance.delegate = self
+        CloudKitModel.sharedInstance.checkICloudCredentials(CKContainer.defaultContainer())
+        
+        waitForExpectationsWithTimeout(10.0, handler: nil)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
+    func testRefreshData() {
+        self.iCloud = expectationWithDescription("refresh")
+        
+        CloudKitModel.sharedInstance.delegate = self
+        CloudKitModel.sharedInstance.container = CKContainer.defaultContainer()
+        CloudKitModel.sharedInstance.refreshData(self)
+        
+        waitForExpectationsWithTimeout(10.0, handler: nil)
+    }
+    
+    func testAddPokemon() {
+        self.iCloud = expectationWithDescription("add")
+        
+        CloudKitModel.sharedInstance.delegate = self
+        CloudKitModel.sharedInstance.container = CKContainer.defaultContainer()
+        CloudKitModel.sharedInstance.addPokemon(Pokemon(number: 20, name: "teste", icon: "teste", image: "teste", level: 20, type: "teste", type2: "teste", status: nil, skills: nil))
+        
+        waitForExpectationsWithTimeout(10.0, handler: nil)
+    }
+    
+    func logStatus(error: NSError?) {
+        self.iCloud.fulfill()
+    }
+    
+    func refreshData(pokemons: [Pokemon]?, withError error: NSError?) {
+        self.iCloud.fulfill()
+    }
+    
+    func addedData(withError: NSError?) {
+        self.iCloud.fulfill()
     }
     
 }

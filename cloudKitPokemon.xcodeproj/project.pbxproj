@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3713A95D1C92491500206319 /* InputAcessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713A95C1C92491500206319 /* InputAcessoryView.swift */; };
+		3713A95E1C92491500206319 /* InputAcessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713A95C1C92491500206319 /* InputAcessoryView.swift */; };
+		3713A95F1C92491500206319 /* InputAcessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713A95C1C92491500206319 /* InputAcessoryView.swift */; };
+		3713A9611C9263F800206319 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713A9601C9263F800206319 /* ImagePickerController.swift */; };
+		3713A9621C9263F800206319 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713A9601C9263F800206319 /* ImagePickerController.swift */; };
+		3713A9631C9263F800206319 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713A9601C9263F800206319 /* ImagePickerController.swift */; };
+		3713A9651C92640D00206319 /* IconPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713A9641C92640D00206319 /* IconPickerController.swift */; };
+		3713A9661C92640D00206319 /* IconPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713A9641C92640D00206319 /* IconPickerController.swift */; };
+		3713A9671C92640D00206319 /* IconPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713A9641C92640D00206319 /* IconPickerController.swift */; };
+		3713A96D1C92719500206319 /* SkillsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713A96C1C92719500206319 /* SkillsTableView.swift */; };
+		3713A96E1C92719500206319 /* SkillsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713A96C1C92719500206319 /* SkillsTableView.swift */; };
+		3713A96F1C92719500206319 /* SkillsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713A96C1C92719500206319 /* SkillsTableView.swift */; };
+		3739C8A21C91EBA100911B65 /* AddPokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3739C8A11C91EBA100911B65 /* AddPokemonViewController.swift */; };
 		3755ACF91C8F385F0098C128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755ACF81C8F385F0098C128 /* AppDelegate.swift */; };
 		3755ACFB1C8F385F0098C128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755ACFA1C8F385F0098C128 /* ViewController.swift */; };
 		3755ACFE1C8F385F0098C128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3755ACFC1C8F385F0098C128 /* Main.storyboard */; };
@@ -14,6 +27,23 @@
 		3755AD031C8F385F0098C128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3755AD011C8F385F0098C128 /* LaunchScreen.storyboard */; };
 		3755AD0E1C8F385F0098C128 /* cloudKitPokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD0D1C8F385F0098C128 /* cloudKitPokemonTests.swift */; };
 		3755AD191C8F385F0098C128 /* cloudKitPokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD181C8F385F0098C128 /* cloudKitPokemonUITests.swift */; };
+		3755AD281C8F387A0098C128 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3755AD271C8F387A0098C128 /* CloudKit.framework */; };
+		3755AD2E1C8F3F480098C128 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD2D1C8F3F480098C128 /* PokemonViewController.swift */; };
+		3755AD2F1C8F3F480098C128 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD2D1C8F3F480098C128 /* PokemonViewController.swift */; };
+		3755AD301C8F3F480098C128 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD2D1C8F3F480098C128 /* PokemonViewController.swift */; };
+		3755AD341C8F40210098C128 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD311C8F40210098C128 /* Pokemon.swift */; };
+		3755AD351C8F40210098C128 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD311C8F40210098C128 /* Pokemon.swift */; };
+		3755AD361C8F40210098C128 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD311C8F40210098C128 /* Pokemon.swift */; };
+		3755AD371C8F40210098C128 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD321C8F40210098C128 /* Skill.swift */; };
+		3755AD381C8F40210098C128 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD321C8F40210098C128 /* Skill.swift */; };
+		3755AD391C8F40210098C128 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD321C8F40210098C128 /* Skill.swift */; };
+		3755AD3A1C8F40210098C128 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD331C8F40210098C128 /* Status.swift */; };
+		3755AD3B1C8F40210098C128 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD331C8F40210098C128 /* Status.swift */; };
+		3755AD3C1C8F40210098C128 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD331C8F40210098C128 /* Status.swift */; };
+		3755AD3E1C8F45FC0098C128 /* CloudKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD3D1C8F45FC0098C128 /* CloudKitModel.swift */; };
+		3755AD3F1C8F45FC0098C128 /* CloudKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD3D1C8F45FC0098C128 /* CloudKitModel.swift */; };
+		3755AD401C8F45FC0098C128 /* CloudKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755AD3D1C8F45FC0098C128 /* CloudKitModel.swift */; };
+		376493E41C90ACFA00225424 /* pokemons.json in Resources */ = {isa = PBXBuildFile; fileRef = 376493E31C90ACFA00225424 /* pokemons.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +64,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3713A95C1C92491500206319 /* InputAcessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputAcessoryView.swift; sourceTree = "<group>"; };
+		3713A9601C9263F800206319 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		3713A9641C92640D00206319 /* IconPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconPickerController.swift; sourceTree = "<group>"; };
+		3713A96C1C92719500206319 /* SkillsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsTableView.swift; sourceTree = "<group>"; };
+		3739C8A11C91EBA100911B65 /* AddPokemonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPokemonViewController.swift; sourceTree = "<group>"; };
 		3755ACF51C8F385F0098C128 /* cloudKitPokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudKitPokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3755ACF81C8F385F0098C128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3755ACFA1C8F385F0098C128 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +82,14 @@
 		3755AD141C8F385F0098C128 /* cloudKitPokemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cloudKitPokemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3755AD181C8F385F0098C128 /* cloudKitPokemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudKitPokemonUITests.swift; sourceTree = "<group>"; };
 		3755AD1A1C8F385F0098C128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3755AD261C8F386F0098C128 /* cloudKitPokemon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = cloudKitPokemon.entitlements; sourceTree = "<group>"; };
+		3755AD271C8F387A0098C128 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		3755AD2D1C8F3F480098C128 /* PokemonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
+		3755AD311C8F40210098C128 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		3755AD321C8F40210098C128 /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		3755AD331C8F40210098C128 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		3755AD3D1C8F45FC0098C128 /* CloudKitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitModel.swift; sourceTree = "<group>"; };
+		376493E31C90ACFA00225424 /* pokemons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokemons.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3755AD281C8F387A0098C128 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +121,7 @@
 		3755ACEC1C8F385F0098C128 = {
 			isa = PBXGroup;
 			children = (
+				3755AD271C8F387A0098C128 /* CloudKit.framework */,
 				3755ACF71C8F385F0098C128 /* cloudKitPokemon */,
 				3755AD0C1C8F385F0098C128 /* cloudKitPokemonTests */,
 				3755AD171C8F385F0098C128 /* cloudKitPokemonUITests */,
@@ -97,12 +142,24 @@
 		3755ACF71C8F385F0098C128 /* cloudKitPokemon */ = {
 			isa = PBXGroup;
 			children = (
+				3755AD261C8F386F0098C128 /* cloudKitPokemon.entitlements */,
 				3755ACF81C8F385F0098C128 /* AppDelegate.swift */,
 				3755ACFA1C8F385F0098C128 /* ViewController.swift */,
+				3739C8A11C91EBA100911B65 /* AddPokemonViewController.swift */,
+				3713A95C1C92491500206319 /* InputAcessoryView.swift */,
+				3713A96C1C92719500206319 /* SkillsTableView.swift */,
+				3713A9601C9263F800206319 /* ImagePickerController.swift */,
+				3713A9641C92640D00206319 /* IconPickerController.swift */,
+				3755AD2D1C8F3F480098C128 /* PokemonViewController.swift */,
+				3755AD3D1C8F45FC0098C128 /* CloudKitModel.swift */,
 				3755ACFC1C8F385F0098C128 /* Main.storyboard */,
+				3755AD311C8F40210098C128 /* Pokemon.swift */,
+				3755AD321C8F40210098C128 /* Skill.swift */,
+				3755AD331C8F40210098C128 /* Status.swift */,
 				3755ACFF1C8F385F0098C128 /* Assets.xcassets */,
 				3755AD011C8F385F0098C128 /* LaunchScreen.storyboard */,
 				3755AD041C8F385F0098C128 /* Info.plist */,
+				376493E31C90ACFA00225424 /* pokemons.json */,
 			);
 			path = cloudKitPokemon;
 			sourceTree = "<group>";
@@ -193,6 +250,12 @@
 				TargetAttributes = {
 					3755ACF41C8F385F0098C128 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 49K39S52K6;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					3755AD081C8F385F0098C128 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -232,6 +295,7 @@
 				3755AD031C8F385F0098C128 /* LaunchScreen.storyboard in Resources */,
 				3755AD001C8F385F0098C128 /* Assets.xcassets in Resources */,
 				3755ACFE1C8F385F0098C128 /* Main.storyboard in Resources */,
+				376493E41C90ACFA00225424 /* pokemons.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +321,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3755ACFB1C8F385F0098C128 /* ViewController.swift in Sources */,
+				3713A96D1C92719500206319 /* SkillsTableView.swift in Sources */,
+				3755AD341C8F40210098C128 /* Pokemon.swift in Sources */,
+				3739C8A21C91EBA100911B65 /* AddPokemonViewController.swift in Sources */,
+				3755AD371C8F40210098C128 /* Skill.swift in Sources */,
 				3755ACF91C8F385F0098C128 /* AppDelegate.swift in Sources */,
+				3755AD2E1C8F3F480098C128 /* PokemonViewController.swift in Sources */,
+				3713A9651C92640D00206319 /* IconPickerController.swift in Sources */,
+				3713A95D1C92491500206319 /* InputAcessoryView.swift in Sources */,
+				3713A9611C9263F800206319 /* ImagePickerController.swift in Sources */,
+				3755AD3A1C8F40210098C128 /* Status.swift in Sources */,
+				3755AD3E1C8F45FC0098C128 /* CloudKitModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +339,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3755AD3F1C8F45FC0098C128 /* CloudKitModel.swift in Sources */,
+				3713A96E1C92719500206319 /* SkillsTableView.swift in Sources */,
+				3755AD2F1C8F3F480098C128 /* PokemonViewController.swift in Sources */,
+				3755AD3B1C8F40210098C128 /* Status.swift in Sources */,
+				3713A9621C9263F800206319 /* ImagePickerController.swift in Sources */,
+				3713A9661C92640D00206319 /* IconPickerController.swift in Sources */,
+				3755AD381C8F40210098C128 /* Skill.swift in Sources */,
+				3713A95E1C92491500206319 /* InputAcessoryView.swift in Sources */,
 				3755AD0E1C8F385F0098C128 /* cloudKitPokemonTests.swift in Sources */,
+				3755AD351C8F40210098C128 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +356,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3755AD401C8F45FC0098C128 /* CloudKitModel.swift in Sources */,
+				3713A96F1C92719500206319 /* SkillsTableView.swift in Sources */,
+				3755AD301C8F3F480098C128 /* PokemonViewController.swift in Sources */,
+				3755AD3C1C8F40210098C128 /* Status.swift in Sources */,
+				3713A9631C9263F800206319 /* ImagePickerController.swift in Sources */,
+				3713A9671C92640D00206319 /* IconPickerController.swift in Sources */,
+				3755AD391C8F40210098C128 /* Skill.swift in Sources */,
+				3713A95F1C92491500206319 /* InputAcessoryView.swift in Sources */,
 				3755AD191C8F385F0098C128 /* cloudKitPokemonUITests.swift in Sources */,
+				3755AD361C8F40210098C128 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +491,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = cloudKitPokemon/cloudKitPokemon.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = cloudKitPokemon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.cloudKitPokemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +506,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = cloudKitPokemon/cloudKitPokemon.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = cloudKitPokemon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.cloudKitPokemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +584,7 @@
 				3755AD1F1C8F385F0098C128 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3755AD201C8F385F0098C128 /* Build configuration list for PBXNativeTarget "cloudKitPokemonTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +593,7 @@
 				3755AD221C8F385F0098C128 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3755AD231C8F385F0098C128 /* Build configuration list for PBXNativeTarget "cloudKitPokemonUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +602,7 @@
 				3755AD251C8F385F0098C128 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
